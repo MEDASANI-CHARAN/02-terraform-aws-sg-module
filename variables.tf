@@ -19,5 +19,5 @@ variable "environment" {
 }
 
 variable "sg_tags" {
-  type = string
+  type = map
 }
