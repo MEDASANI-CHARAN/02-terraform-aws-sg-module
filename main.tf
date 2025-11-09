@@ -18,4 +18,4 @@ resource "aws_security_group" "main" {
         Name = "${var.project}-${var.environment}-${var.sg_name}"
     }
   )
-}              
+}               
