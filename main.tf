@@ -18,4 +18,4 @@ resource "aws_security_group" "main" {
         Name = local.sg_name
     }
   )
-}                               
+}                                
